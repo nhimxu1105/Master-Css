@@ -1,0 +1,38 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-size: 50px;
+}
+
+body {
+    height: 5000px;
+}
+
+.list-item-pattern {
+    background-image: url(./abstract-pattern.jpg);
+    height: 200px;
+    background-repeat: repeat-x;
+    background-size: 20%;
+}
+
+.list-item-scenery {
+    background-image: url(./scenery.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -200px;
+}
+.list-item-scenery1 {
+    background-image: url(./scenery1.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -200px;
+    background-attachment: fixed;
+}
+button {
+    padding: 12px 20px;
+    background-color: transparent; 
+}
