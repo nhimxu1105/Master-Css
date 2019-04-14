@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .bo {
+        width: 400px;
+        height: 300px;
+        position: relative;
+        background-color: rgb(44, 63, 82);
+        font-size: 15px;
+    }
+    .bo .con {
+        position: absolute;
+        bottom: 0px;
+        padding: 20px;
+        width: 100%;
+    }
+    .con h3 {
+        color: white;
+    }
+    .con span {
+        margin: 10px 0;
+        display: inline-block;
+        color: rgb(214, 112, 129);
+    }
+    .con a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        float: right;
+        background-color: rgb(214, 112, 129);
+    }
+    .bo img{
+       transform: scale(1);
+       transition: 0.4s;
+    }
+    .bo:hover img{
+        transform: scale(0.5) translateY(-90px);
+    }
+</style>
+
+<body>
+    <div class="bo">
+        <div class="con">
+            <h3>Camera</h3>
+            <span>by Linh Nguyen</span>
+            <a href="#">Take look</a>
+        </div>
+        <img src="../images/1.png" alt="">
+    </div>
+</body>
+
+</html>
